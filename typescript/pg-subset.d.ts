@@ -64,6 +64,7 @@ declare namespace pg {
         pfx?: string | Buffer | Array<string | Buffer | object>
         cert?: string | Buffer | Array<string | Buffer>
         key?: string | Buffer | Array<Buffer | object>
+        servername?: string
         passphrase?: string
         rejectUnauthorized?: boolean
         checkServerIdentity?: typeof checkServerIdentity
